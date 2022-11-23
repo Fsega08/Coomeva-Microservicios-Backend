@@ -24,7 +24,7 @@ public class CustomerDTO implements Serializable {
 	@NotEmpty
 	@Size(max = 255)
 	private String address;
-	@NotNull
+//	@NotNull
 	private Integer custId;
 	@NotNull
 	@NotEmpty

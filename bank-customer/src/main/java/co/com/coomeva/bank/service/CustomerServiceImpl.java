@@ -71,9 +71,9 @@ public class CustomerServiceImpl implements CustomerService {
 
 		validate(entity);
 
-		if (customerRepository.existsById(entity.getCustId())) {
-			throw new Exception("The customer already exists");
-		}
+//		if (customerRepository.existsById(entity.getCustId())) {
+//			throw new Exception("The customer already exists");
+//		}
 
 		return customerRepository.save(entity);
 
